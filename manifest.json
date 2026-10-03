@@ -10,16 +10,16 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "IMG_20261002_124213_591.jpg",
+      "src": "./IMG_20261002_124213_591.jpg",
       "sizes": "192x192",
       "type": "image/jpeg",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "IMG_20261002_124211_283.jpg",
+      "src": "./IMG_20261002_124211_283.jpg",
       "sizes": "512x512",
       "type": "image/jpeg",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
