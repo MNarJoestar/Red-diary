@@ -367,3 +367,22 @@ textarea::placeholder {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Ajuste en styles.css */
+
+/* Garantizar que las listas respeten el atributo hidden */
+.list-screen:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+
+/* Evitar que el footer bloquee la pantalla táctil */
+.app-footer {
+  pointer-events: none;
+}
+
+.back-button {
+  pointer-events: auto;
+}
